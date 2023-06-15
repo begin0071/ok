@@ -29,7 +29,7 @@ scoresButton.setAttribute("class", "scores");
 
 let questions = [
   {question: "which year was telegram initially launched?",
-    answers: ["golden age", "2013", "Eighteen eighty", "no one cares"],
+    answers: ["golden age", "2013", "Eighteen eighty", "choose wisely"],
     correctAnswer: "2013"},
   {question: "Who is the founder of Telegram?",
     answers: ["idk", "someone", ":/", "Pavel Durov"],

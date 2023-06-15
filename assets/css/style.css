@@ -1,20 +1,20 @@
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #a0cccf;
+    background-color: #629a9e;
     text-align: center;
   }
   
   h1{
-    font-size: 250%;
+    font-size: 150%;
     font-family: 'Times New Roman', 'Times', 'serif';
   }
   
   h2{
-    font-size: 200%;
+    font-size: 80%;
   }
   
   h3{
-    font-size: 150%;
+    font-size: 110%;
   }
   
   header{
@@ -31,17 +31,17 @@ body{
   }
   
   button{
-    width: 15%;
+    width: 25%;
     height: 3em;
-    background-color: #73c3d4;
+    background-color: #739bd4;
     border-radius: 6px;
-    box-shadow: 3px 3px 2px #03498e;
+    box-shadow: 3px 3px 2px #b52727;
     cursor: pointer;
     margin-top: 1em;
   }
   
   button:hover{
-    background-color: #b5c5e7;
+    background-color: #90c3dd;
   }
   
   form{
