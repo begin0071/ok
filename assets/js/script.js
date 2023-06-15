@@ -152,17 +152,17 @@ function sendMessage(){
 
   // This sets the score value to a percentage and displays it.
   scorePercentage = Math.round([scoreValue/questions.length]*100) + "%";
-  questionBox.textContent=`Congratulations, your score is ${scorePercentage}!`
+  questionBox.textContent=`Nice, your score is  ${scorePercentage}!`
 
   // This creates the submission text.
   initialsP = document.createElement("p");
-  initialsP.textContent = "Please enter your initials and save your score.";
+  initialsP.textContent = "Real name?";
   formBox.appendChild(initialsP);
 
   // This creates the input field for saving the score.
   initials = document.createElement("input");
   initials.setAttribute("type", "text");
-  initials.setAttribute("placeholder", "INITIALS");
+  initials.setAttribute("placeholder", "your real name please");
   initials.setAttribute("id", "getMeForSave")
   initials.setAttribute("style", "text-align: center");
   formBox.appendChild(initials);
